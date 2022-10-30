@@ -33,4 +33,5 @@ jobs:
         with:
           eslint: true
           prettier: true
-          dir: exercises
+          eslint_dir: exercises
+          prettier_dir: exercises
