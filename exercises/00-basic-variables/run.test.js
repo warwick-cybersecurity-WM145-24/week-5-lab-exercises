@@ -6,6 +6,14 @@ describe("Code works", () => {
     assert.strictEqual(code.workingWithIntegers(), 42);
   });
 
+  it("workingWithIntegersArithmetic Works", () => {
+    assert.strictEqual(code.workingWithIntegersArithmetic(), 20);
+  });
+
+  it("workingWithIntegersMultiplication Works", () => {
+    assert.strictEqual(code.workingWithIntegersMultiplication(), 100);
+  });
+
   it("workingWithStrings works", () => {
     assert.strictEqual(code.workingWithStrings(), "I love potatoes");
   });
@@ -16,6 +24,7 @@ describe("Code works", () => {
       [1, 2, 34, 55, 666, 123412415]
     );
   });
+
   it("workingWithMixedArrays works", () => {
     assert.deepEqual(code.workingWithMixedArrays(), [
       1,
@@ -27,6 +36,7 @@ describe("Code works", () => {
       666
     ]);
   });
+
   it("workingWithObjects works", () => {
     assert.deepEqual(code.workingWithObjects(), {
       greeting: "Hello",
@@ -34,4 +44,5 @@ describe("Code works", () => {
       city: "Liverpool"
     });
   });
+
 });

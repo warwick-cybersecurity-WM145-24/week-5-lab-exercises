@@ -20,5 +20,5 @@ npm run test:continuous
 npm run test
 
 # If you just want to run one test suite and not all of them to keep the screen noise low
-npx mocha -w 00-basic-variables/run.test.js
+npx mocha -w 00-basic-variables
 ```

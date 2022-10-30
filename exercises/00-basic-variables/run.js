@@ -3,6 +3,22 @@ workingWithIntegers = function () {
   return myNumber;
 };
 
+workingWithIntegersArithmetic = function () {
+
+  const numberOne = 10;
+  const numberTwo = 0;
+
+  return numberOne + numberTwo;
+};
+
+workingWithIntegersMultiplication = function () {
+
+  const numberOne = 10;
+  const numberTwo = 0;
+
+  return numberOne * numberTwo;
+};
+
 workingWithStrings = function () {
   const myString = "";
   return myString;
@@ -34,6 +50,8 @@ workingWithObjects = function () {
 
 module.exports = {
   workingWithIntegers,
+  workingWithIntegersArithmetic,
+  workingWithIntegersMultiplication,
   workingWithStrings,
   workingWithIntArrays,
   workingWithMixedArrays,
