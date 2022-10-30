@@ -8,7 +8,7 @@ module.exports = {
   reporter: "spec",
   timeout: 2000,
   ui: "bdd",
-  "watch-files": ["./**/*.test.js"],
+  "watch-files": ["./**/*.test.js","./**/*.js"],
   "watch-ignore": ["node_modules"],
   "trace-warnings": true //node flags ok
 };

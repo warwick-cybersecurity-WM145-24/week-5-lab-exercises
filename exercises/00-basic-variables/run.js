@@ -1,5 +1,5 @@
 workingWithIntegers = function () {
-  const myNumber = 1;
+  const myNumber = 0;
   return myNumber;
 };
 

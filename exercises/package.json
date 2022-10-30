@@ -4,7 +4,8 @@
   "description": "Basic exercises",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "mocha './{,!(node_modules)/**}/*.test.js'"
+    "test": "mocha './{,!(node_modules)/**}/*.test.js'",
+    "test:continuous": "mocha -w './{,!(node_modules)/**}/*.test.js'"
   },
   "author": "Jujhar Singh",
   "license": "MIT",
