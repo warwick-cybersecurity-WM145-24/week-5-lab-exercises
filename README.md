@@ -17,6 +17,6 @@ npm test
 # fix the code and then run the test again and again till they all pass
 npm test
 
-# If you just want to run one test suite and not all of them
+# If you just want to run one test suite and not all of them to keep the screen noise low
 npx mocha basic-variables/run.test.js
 ```

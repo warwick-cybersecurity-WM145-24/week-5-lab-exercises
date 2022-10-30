@@ -1,4 +1,4 @@
-const assert = require("assert");
+const assert = require("chai").assert;
 const code = require("./run.js");
 
 describe("Code works", () => {
