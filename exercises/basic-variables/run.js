@@ -28,7 +28,7 @@ workingWithMixedArrays = function () {
  * Javascript objects are cool
  */
 workingWithObjects = function () {
-  const myObject = { };
+  const myObject = {};
   return myObject;
 };
 
