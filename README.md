@@ -1,6 +1,6 @@
 # Week 5 Lab Exercises
 
-Basic Javascript exercises to give you the hang of things
+Basic Javascript exercises to give you a feel for Javascript primitives
 
 ## Running
 

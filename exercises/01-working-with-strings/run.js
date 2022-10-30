@@ -5,6 +5,7 @@ workingOldSchool = function () {
 
 workingWithFancyInterpolation = function () {
   const yourUniversity = "Warwick";
+  /* eslint-disable quotes */
   return `This is how we at do it now`;
 };
 
