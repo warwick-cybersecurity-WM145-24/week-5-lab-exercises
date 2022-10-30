@@ -5,6 +5,8 @@
  * If the number is divisible by 3 and 5, return "Fizzbuzz"
  * Otherwise simply return the number
  */
-fizzBuzz = function (inputNumber) { };
+fizzBuzz = function (inputNumber) {
+  return 0;
+};
 
 module.exports = { fizzBuzz };
