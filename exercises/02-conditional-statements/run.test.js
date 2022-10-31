@@ -8,10 +8,10 @@ describe("Code works", () => {
   });
 
   it("complexIfStatements works", () => {
-    assert.isTrue(isNumberEven(13));
-    assert.isTrue(isNumberEven(3333));
-    assert.isFalse(isNumberEven(2));
-    assert.isFalse(isNumberEven(333333));
+    assert.isTrue(complexIfStatements(13));
+    assert.isTrue(complexIfStatements(3333));
+    assert.isFalse(complexIfStatements(2));
+    assert.isFalse(complexIfStatements(333333));
   });
 
   it("switchStatements works", () => {
