@@ -1,6 +1,15 @@
 # Week 5 Lab Exercises
 
-Basic Javascript exercises to give you a feel for Javascript primitives
+Basic Javascript exercises to give you a feel for Javascript primitives.
+
+Covering:
+
+- Variables
+- string manipulation
+- Conditional statements
+- Loops and iterators
+- Exceptions
+- Advanced Exercises
 
 ## Running
 
