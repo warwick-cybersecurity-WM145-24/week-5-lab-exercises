@@ -19,9 +19,9 @@ describe("Code works", () => {
     assert.equal(code.switchStatements(1), "Tuesday");
     assert.equal(code.switchStatements(2), "Wednesday");
     assert.equal(code.switchStatements(3), "Thursday");
-    assert.equal(code.switchStatements(5), "Friday");
-    assert.equal(code.switchStatements(6), "Saturday");
-    assert.equal(code.switchStatements(7), "Sunday");
+    assert.equal(code.switchStatements(4), "Friday");
+    assert.equal(code.switchStatements(5), "Saturday");
+    assert.equal(code.switchStatements(6), "Sunday");
   });
 
   it("switchStatements throws on Wonky looking data", () => {
