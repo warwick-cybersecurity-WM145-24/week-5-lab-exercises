@@ -3,7 +3,7 @@ const code = require("./run.js");
 
 describe("Code works", () => {
   it("returns 1 for the number 1", () => {
-    assert.equal(fizzbuzz(1), 1);
+    assert.equal(fizzBuzz(1), 1);
   });
 
   it("returns 7 for the number 7", () => {

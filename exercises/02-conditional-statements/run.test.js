@@ -8,10 +8,10 @@ describe("Code works", () => {
   });
 
   it("complexIfStatements works", () => {
-    assert.isTrue(isNumberEven(13));
-    assert.isTrue(isNumberEven(3333));
-    assert.isFalse(isNumberEven(2));
-    assert.isFalse(isNumberEven(333333));
+    assert.isTrue(complexIfStatements(13));
+    assert.isTrue(complexIfStatements(3333));
+    assert.isFalse(complexIfStatements(2));
+    assert.isFalse(complexIfStatements(333333));
   });
 
   it("switchStatements works", () => {
@@ -19,9 +19,9 @@ describe("Code works", () => {
     assert.equal(code.switchStatements(1), "Tuesday");
     assert.equal(code.switchStatements(2), "Wednesday");
     assert.equal(code.switchStatements(3), "Thursday");
-    assert.equal(code.switchStatements(5), "Friday");
-    assert.equal(code.switchStatements(6), "Saturday");
-    assert.equal(code.switchStatements(7), "Sunday");
+    assert.equal(code.switchStatements(4), "Friday");
+    assert.equal(code.switchStatements(5), "Saturday");
+    assert.equal(code.switchStatements(6), "Sunday");
   });
 
   it("switchStatements throws on Wonky looking data", () => {
