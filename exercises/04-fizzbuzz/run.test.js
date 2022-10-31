@@ -26,7 +26,7 @@ describe("Code works", () => {
     assert.equal(fizzBuzz(10), "Buzz");
   });
 
-  it('returns "fizzBuzz" for the number 15', () => {
+  it('returns "FizzBuzz" for the number 15', () => {
     assert.equal(fizzBuzz(15), "FizzBuzz");
   });
 
